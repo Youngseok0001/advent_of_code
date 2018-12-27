@@ -2,13 +2,16 @@
 from itertools import cycle, accumulate, islice, chain, groupby
 import re
 
+
 def get_set(list):
-    return {e:list.count(e) for e in list}
+    return {e: list.count(e) for e in list}
+
 
 def get_2_3(dic):
-    return [e[1] for e in dic.items() if e[1] in [2,3]]
+    return [e[1] for e in dic.items() if e[1] in [2, 3]]
 
-lists = [line for line in open("../data/day2.1.txt","r").read().split("\n")]
+
+lists = [line for line in open("../data/day2.1.txt", "r").read().split("\n")]
 dicts = [get_set(list) for list in lists]
 two_three = [list(set(get_2_3(dic))) for dic in dicts]
 two = [1 for e in two_three if 2 in e]

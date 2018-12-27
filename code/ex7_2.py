@@ -28,7 +28,7 @@ def my_print(path_dict, freq_dict):
     answer = []
     while True:
         candidates = [key for key, values in freq_dict.items() if values == 0]
-        candidates = sorted(candidates)
+        # print(candidates)
         answer.append(candidates[0])
 
         try:
@@ -47,5 +47,7 @@ pattern = "Step ([A-Z]{1}) .* step ([A-Z]{1}) .*"
 lines = [re.findall(pattern, line)[0] for line in lines]
 path_dict = OrderedDict()
 [create_path_dict(line) for line in lines]
+print(path_dict)
 freq_dict = create_freq_dict(lines)
+print(freq_dict)
 print("".join(my_print(path_dict, freq_dict)))
