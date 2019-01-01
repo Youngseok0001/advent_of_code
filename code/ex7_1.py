@@ -27,6 +27,7 @@ def my_print(path_dict, freq_dict):
 
     answer = []
     while True:
+
         candidates = [key for key, values in freq_dict.items() if values == 0]
         candidates = sorted(candidates)
         answer.append(candidates[0])

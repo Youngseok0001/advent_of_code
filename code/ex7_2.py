@@ -1,13 +1,18 @@
 from collections import OrderedDict, Counter
 from functools import reduce
 import re
+from utils import name_generator
+import string
 
 
-def create_path_dict(line):
-    if line[0] in path_dict.keys():
-        path_dict[line[0]].append(line[1])
-    else:
-        path_dict[line[0]] = [line[1]]
+def create_path_dict(lines):
+    path_dict = {}
+    for line in lines:
+        if line[0] in path_dict.keys():
+            path_dict[line[0]].append(line[1])
+        else:
+            path_dict[line[0]] = [line[1]]
+    return path_dict
 
 
 def create_freq_dict(lines):
@@ -23,31 +28,56 @@ def create_freq_dict(lines):
     return freq_dict
 
 
-def my_print(path_dict, freq_dict):
+def create_work_amount_dict():
+    return {letter: i + 1 + 60 for i, letter in enumerate(string.ascii_uppercase)}
 
-    answer = []
+
+def allocate_do_remove_work(worker_dict, candidates):
+
+    # allocate
+    for worker_name, sub_dict in worker_dict.items():
+        if sub_dict["now_working"] == None and len(candidates) != 0:
+            work_to_be_added = candidates.pop()
+            sub_dict["now_working"] = work_to_be_added
+            sub_dict["days_left"] = amount_dict[work_to_be_added]
+
+    # do
+    for worker_name, sub_dict in worker_dict.items():
+        if sub_dict["now_working"] is not None:
+            sub_dict["days_left"] = sub_dict["days_left"] - 1
+
+    # remove
+    work_done = []
+    for worker_name, sub_dict in worker_dict.items():
+        if sub_dict["days_left"] == 0:
+            work_done.append(sub_dict["now_working"])
+            sub_dict["now_working"] = None
+            sub_dict["days_left"] = None
+    return work_done
+
+
+def do_your_project(freq_dict, path_dict, worker_dict, amount_dict):
+    iter = 0
     while True:
-        candidates = [key for key, values in freq_dict.items() if values == 0]
-        # print(candidates)
-        answer.append(candidates[0])
+        iter = iter + 1
+        candidates = [k for k, v in freq_dict.items() if v == 0]
+        working = [v["now_working"] for v in worker_dict.values()]
+        candidates = [c for c in candidates if c not in working]
+        candidates = sorted(candidates, reverse=True)
+        work_done = allocate_do_remove_work(worker_dict, candidates)
+        for w in work_done:
+            next_work = path_dict.pop(w)
+            for x in [w] + next_work:
+                freq_dict[x] = freq_dict[x] - 1
 
-        try:
-            values = path_dict.pop(candidates[0])
-        except KeyError:
-            break
-
-        for value in values + [candidates[0]]:
-            freq_dict[value] = freq_dict[value] - 1
-
-    return answer
+        print(iter)
 
 
 lines = open("../data/day7.txt").read().split(".\n")[:-1]
 pattern = "Step ([A-Z]{1}) .* step ([A-Z]{1}) .*"
 lines = [re.findall(pattern, line)[0] for line in lines]
-path_dict = OrderedDict()
-[create_path_dict(line) for line in lines]
-print(path_dict)
+path_dict = create_path_dict(lines)
 freq_dict = create_freq_dict(lines)
-print(freq_dict)
-print("".join(my_print(path_dict, freq_dict)))
+amount_dict = create_work_amount_dict()
+worker_dict = {"worker_{}".format(i): {"now_working": None, "days_left": None} for i in range(5)}
+do_your_project(freq_dict, path_dict, worker_dict, amount_dict)

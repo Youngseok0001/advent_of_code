@@ -4,6 +4,54 @@
 		"selected_items":
 		[
 			[
+				"fibo",
+				"fibo_pascal\tfunction"
+			],
+			[
+				"Ke",
+				"KeyError\tclass"
+			],
+			[
+				"key",
+				"tf.GraphKeys() \tTensorflow"
+			],
+			[
+				"iter",
+				"iteration_max\tstatement"
+			],
+			[
+				"random",
+				"Random\tclass"
+			],
+			[
+				"f",
+				"function_1\tmodule"
+			],
+			[
+				"fu",
+				"function_1"
+			],
+			[
+				"asce",
+				"ascending_list\tfunction"
+			],
+			[
+				"fac",
+				"factorial\tfunction"
+			],
+			[
+				"re",
+				"reduce\tfunction"
+			],
+			[
+				"global",
+				"global_variables_initializer\tfunction"
+			],
+			[
+				"place",
+				"tf.placeholder() \tTensorflow"
+			],
+			[
 				"ascii",
 				"ascii_lowercase\tstatement"
 			],
@@ -43,6 +91,16 @@
 	},
 	"buffers":
 	[
+		{
+			"contents": "5\n10\n11\n14\n0\n[Finished in 0.1s]",
+			"settings":
+			{
+				"buffer_size": 31,
+				"line_ending": "Unix",
+				"name": "Build output",
+				"scratch": true
+			}
+		}
 	],
 	"build_system": "Packages/Python/Python.sublime-build",
 	"build_system_choices":
@@ -72,11 +130,19 @@
 		"selected_items":
 		[
 			[
-				"install",
+				"instal",
 				"Package Control: Install Package"
 			],
 			[
-				"instal",
+				"package ins",
+				"Package Control: Install Package"
+			],
+			[
+				"terminal",
+				"Terminal View: Open Bash Terminal"
+			],
+			[
+				"install",
 				"Package Control: Install Package"
 			],
 			[
@@ -100,10 +166,6 @@
 				"Package Control: Remove Package"
 			],
 			[
-				"package ins",
-				"Package Control: Install Package"
-			],
-			[
 				"Ter",
 				"Terminal: Open"
 			],
@@ -114,10 +176,6 @@
 			[
 				"pakc",
 				"Package Control: Install Package"
-			],
-			[
-				"terminal",
-				"Terminal View: Open Bash Terminal"
 			],
 			[
 				"isntall ",
@@ -179,31 +237,52 @@
 		"/Users/youngseok/Desktop/learning_resources/codes/python_tutorial/python_basic",
 		"/Users/youngseok/Desktop/learning_resources/codes/python_tutorial/python_basic/advent_of_code",
 		"/Users/youngseok/Desktop/learning_resources/codes/python_tutorial/python_basic/advent_of_code/code",
-		"/Users/youngseok/Desktop/learning_resources/codes/python_tutorial/python_basic/advent_of_code/data"
+		"/Users/youngseok/Desktop/learning_resources/codes/python_tutorial/python_basic/advent_of_code/code/__pycache__",
+		"/Users/youngseok/Desktop/learning_resources/codes/python_tutorial/python_basic/advent_of_code/data",
+		"/Users/youngseok/Desktop/learning_resources/codes/python_tutorial/python_basic/Complete-Python-3-Bootcamp",
+		"/Users/youngseok/Desktop/learning_resources/codes/python_tutorial/python_basic/module_call",
+		"/Users/youngseok/Desktop/learning_resources/codes/python_tutorial/python_basic/module_call/functions",
+		"/Users/youngseok/Desktop/learning_resources/codes/python_tutorial/python_basic/module_call/functions/__pycache__"
 	],
 	"file_history":
 	[
-		"/Users/youngseok/Desktop/learning_resources/codes/python_tutorial/python_basic/advent_of_code/code/ex6_1.py",
-		"/Users/youngseok/Desktop/learning_resources/codes/python_tutorial/python_basic/advent_of_code/code/ex5_1.py",
-		"/Users/youngseok/Desktop/learning_resources/codes/python_tutorial/python_basic/advent_of_code/code/ex6_2.py",
-		"/Users/youngseok/Desktop/learning_resources/codes/python_tutorial/python_basic/advent_of_code/data/day_6.txt",
-		"/Users/youngseok/Desktop/learning_resources/codes/python_tutorial/python_basic/advent_of_code/code/ex5_2.py",
-		"/Users/youngseok/Desktop/learning_resources/codes/python_tutorial/python_basic/advent_of_code/data/day5.txt",
+		"/Users/youngseok/Desktop/learning_resources/codes/python_tutorial/python_basic/advent_of_code/code/rought_paper.py",
+		"/Users/youngseok/Desktop/learning_resources/codes/python_tutorial/python_basic/advent_of_code/data/day_8.txt",
+		"/Users/youngseok/Desktop/learning_resources/codes/python_tutorial/python_basic/advent_of_code/code/ex9_1.py",
+		"/Users/youngseok/Desktop/learning_resources/codes/python_tutorial/python_basic/advent_of_code/code/ex8_1.py",
+		"/Users/youngseok/Desktop/learning_resources/codes/python_tutorial/python_basic/advent_of_code/data/day9.txt",
+		"/Users/youngseok/Desktop/learning_resources/codes/python_tutorial/python_basic/advent_of_code/code/ex7_2.py",
+		"/Users/youngseok/Desktop/learning_resources/codes/python_tutorial/python_basic/advent_of_code/code/ex7_1.py",
+		"/Users/youngseok/Desktop/learning_resources/codes/python_tutorial/python_basic/advent_of_code/data/day7.txt",
+		"/Users/youngseok/Desktop/learning_resources/codes/python_tutorial/python_basic/module_call/functions/run.py",
+		"/Users/youngseok/Desktop/learning_resources/codes/python_tutorial/python_basic/advent_of_code/code/utils.py",
+		"/Users/youngseok/Desktop/learning_resources/codes/python_tutorial/python_basic/advent_of_code/code/utils.py ",
+		"/Users/youngseok/Desktop/learning_resources/codes/python_tutorial/python_basic/advent_of_code/code/virtualenv_python3.sublime-project",
+		"/Users/youngseok/Desktop/learning_resources/codes/python_tutorial/python_basic/advent_of_code/code/Untitled.ipynb",
 		"/Users/youngseok/Desktop/learning_resources/codes/python_tutorial/python_basic/advent_of_code/code/ex4_1.py",
 		"/Users/youngseok/Desktop/learning_resources/codes/python_tutorial/python_basic/advent_of_code/code/ex4_2.py",
-		"/Users/youngseok/Desktop/learning_resources/codes/python_tutorial/python_basic/advent_of_code/data/day4.txt",
+		"/Users/youngseok/Desktop/learning_resources/codes/python_tutorial/python_basic/advent_of_code/code/ex1_2.py",
+		"/Users/youngseok/Desktop/learning_resources/codes/python_tutorial/python_basic/module_call/run.py",
+		"/Users/youngseok/Desktop/learning_resources/codes/python_tutorial/python_basic/module_call/functions/function_1.py",
+		"/Users/youngseok/Desktop/learning_resources/codes/python_tutorial/python_basic/module_call/functions/function_2.py",
+		"/Users/youngseok/Desktop/learning_resources/codes/python_tutorial/python_basic/module_call/functions/__init__.py",
+		"/Users/youngseok/Desktop/learning_resources/codes/python_tutorial/python_basic/advent_of_code/data/day2.1.txt",
+		"/Users/youngseok/Desktop/learning_resources/codes/python_tutorial/python_basic/advent_of_code/code/ex1_1.py",
+		"/Users/youngseok/Desktop/learning_resources/codes/python_tutorial/python_basic/advent_of_code/code/ex5_2.py",
+		"/Users/youngseok/Desktop/learning_resources/codes/python_tutorial/python_basic/advent_of_code/code/ex5_1.py",
+		"/Users/youngseok/Desktop/learning_resources/codes/python_tutorial/python_basic/advent_of_code/code/ex6_2.py",
+		"/Users/youngseok/Desktop/learning_resources/codes/python_tutorial/python_basic/advent_of_code/code/ex6_1.py",
 		"/Users/youngseok/Desktop/learning_resources/codes/python_tutorial/python_basic/advent_of_code/code/ex3_2.py",
+		"/Users/youngseok/Desktop/learning_resources/codes/python_tutorial/python_basic/advent_of_code/data/day3.txt",
 		"/Users/youngseok/Desktop/learning_resources/codes/python_tutorial/python_basic/advent_of_code/code/ex3_1.py",
 		"/Users/youngseok/Desktop/learning_resources/codes/python_tutorial/python_basic/advent_of_code/code/ex2_2.py",
 		"/Users/youngseok/Desktop/learning_resources/codes/python_tutorial/python_basic/advent_of_code/code/ex2_1.py",
-		"/Users/youngseok/Desktop/learning_resources/codes/python_tutorial/python_basic/advent_of_code/code/ex1_2.py",
-		"/Users/youngseok/Desktop/learning_resources/codes/python_tutorial/python_basic/advent_of_code/code/ex1_1.py",
-		"/Users/youngseok/Desktop/learning_resources/codes/python_tutorial/python_basic/advent_of_code/data/day3.txt",
+		"/Users/youngseok/Desktop/learning_resources/codes/python_tutorial/python_basic/advent_of_code/data/day4.txt",
+		"/Users/youngseok/Desktop/learning_resources/codes/python_tutorial/python_basic/advent_of_code/data/day_6.txt",
+		"/Users/youngseok/Desktop/learning_resources/codes/python_tutorial/python_basic/advent_of_code/data/day5.txt",
 		"/Users/youngseok/Desktop/learning_resources/codes/python_tutorial/python_basic/advent_of_code/code/.ipynb_checkpoints/Untitled-checkpoint.ipynb",
-		"/Users/youngseok/Desktop/learning_resources/codes/python_tutorial/python_basic/advent_of_code/data/day2.1.txt",
 		"/Users/youngseok/Desktop/learning_resources/codes/python_tutorial/python_basic/advent_of_code/code/test.py",
 		"/Users/youngseok/Desktop/learning_resources/codes/python_tutorial/python_basic/advent_of_code/data/day_1.txt",
-		"/Users/youngseok/Desktop/learning_resources/codes/python_tutorial/python_basic/advent_of_code/code/virtualenv_python3.sublime-project",
 		"/Users/youngseok/Library/Application Support/Sublime Text 3/Packages/User/Anaconda.sublime-settings",
 		"/Users/youngseok/Desktop/learning_resources/codes/python_tutorial/python_basic/advent_of_code/code/untitled",
 		"/Users/youngseok/Library/Application Support/Sublime Text 3/Packages/User/python3.sublime-project",
@@ -250,7 +329,7 @@
 	],
 	"find":
 	{
-		"height": 70.0
+		"height": 30.0
 	},
 	"find_in_files":
 	{
@@ -264,6 +343,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"work_don",
+			"        print(candidates)\n",
+			"candidates",
+			"G",
 			"]"
 		],
 		"highlight": true,
@@ -287,8 +370,38 @@
 			]
 		},
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 31,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								31,
+								31
+							]
+						],
+						"settings":
+						{
+							"default_dir": "/Users/youngseok/Desktop/learning_resources/codes/python_tutorial/python_basic/advent_of_code/code",
+							"incomplete_sync": null,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -320,7 +433,7 @@
 		"cols":
 		[
 			0.0,
-			0.635557846179,
+			0.612557032155,
 			1.0
 		],
 		"rows":
@@ -388,7 +501,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},
@@ -396,7 +509,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 149.0,
+	"side_bar_width": 279.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
