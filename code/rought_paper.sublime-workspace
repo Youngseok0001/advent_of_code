@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"wi",
+				"window_dim\tstatement"
+			],
+			[
+				"mul",
+				"multiply\tinstance"
+			],
+			[
+				"as",
+				"asarray\tfunction"
+			],
+			[
+				"f",
+				"findall\tfunction"
+			],
+			[
 				"fibo",
 				"fibo_pascal\tfunction"
 			],
@@ -22,10 +38,6 @@
 			[
 				"random",
 				"Random\tclass"
-			],
-			[
-				"f",
-				"function_1\tmodule"
 			],
 			[
 				"fu",
@@ -91,36 +103,10 @@
 	},
 	"buffers":
 	[
-		{
-			"contents": "5\n10\n11\n14\n0\n[Finished in 0.1s]",
-			"settings":
-			{
-				"buffer_size": 31,
-				"line_ending": "Unix",
-				"name": "Build output",
-				"scratch": true
-			}
-		}
 	],
 	"build_system": "Packages/Python/Python.sublime-build",
 	"build_system_choices":
 	[
-		[
-			[
-				[
-					"Packages/Python/Python.sublime-build",
-					""
-				],
-				[
-					"Packages/Python/Python.sublime-build",
-					"Syntax Check"
-				]
-			],
-			[
-				"Packages/Python/Python.sublime-build",
-				""
-			]
-		]
 	],
 	"build_varint": "",
 	"command_palette":
@@ -232,20 +218,22 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
-	"expanded_folders":
-	[
-		"/Users/youngseok/Desktop/learning_resources/codes/python_tutorial/python_basic"
-	],
 	"file_history":
 	[
-		"/Users/youngseok/Desktop/learning_resources/codes/python_tutorial/python_basic/advent_of_code/code/rought_paper.py",
+		"/Users/youngseok/Desktop/learning_resources/codes/python_tutorial/advent_of_code/code/rought_paper.py",
+		"/Users/youngseok/Desktop/learning_resources/codes/python_tutorial/python_basic/advent_of_code/data/day17.txt",
 		"/Users/youngseok/Desktop/learning_resources/codes/python_tutorial/python_basic/advent_of_code/data/day_8.txt",
 		"/Users/youngseok/Desktop/learning_resources/codes/python_tutorial/python_basic/advent_of_code/code/ex9_1.py",
-		"/Users/youngseok/Desktop/learning_resources/codes/python_tutorial/python_basic/advent_of_code/code/ex8_1.py",
+		"/Users/youngseok/Desktop/learning_resources/codes/python_tutorial/python_basic/advent_of_code/code/ex11_2.py",
+		"/Users/youngseok/Desktop/learning_resources/codes/python_tutorial/python_basic/advent_of_code/code/rought_paper.py",
+		"/Users/youngseok/Desktop/learning_resources/codes/python_tutorial/python_basic/advent_of_code/code/ex11_1.py",
+		"/Users/youngseok/Desktop/learning_resources/codes/python_tutorial/python_basic/advent_of_code/code/ex5_1.py",
+		"/Users/youngseok/Desktop/learning_resources/codes/python_tutorial/python_basic/advent_of_code/code/ex5_2.py",
 		"/Users/youngseok/Desktop/learning_resources/codes/python_tutorial/python_basic/advent_of_code/data/day9.txt",
+		"/Users/youngseok/Desktop/learning_resources/codes/python_tutorial/python_basic/advent_of_code/data/day7.txt",
+		"/Users/youngseok/Desktop/learning_resources/codes/python_tutorial/python_basic/advent_of_code/code/ex8_1.py",
 		"/Users/youngseok/Desktop/learning_resources/codes/python_tutorial/python_basic/advent_of_code/code/ex7_2.py",
 		"/Users/youngseok/Desktop/learning_resources/codes/python_tutorial/python_basic/advent_of_code/code/ex7_1.py",
-		"/Users/youngseok/Desktop/learning_resources/codes/python_tutorial/python_basic/advent_of_code/data/day7.txt",
 		"/Users/youngseok/Desktop/learning_resources/codes/python_tutorial/python_basic/module_call/functions/run.py",
 		"/Users/youngseok/Desktop/learning_resources/codes/python_tutorial/python_basic/advent_of_code/code/utils.py",
 		"/Users/youngseok/Desktop/learning_resources/codes/python_tutorial/python_basic/advent_of_code/code/utils.py ",
@@ -260,8 +248,6 @@
 		"/Users/youngseok/Desktop/learning_resources/codes/python_tutorial/python_basic/module_call/functions/__init__.py",
 		"/Users/youngseok/Desktop/learning_resources/codes/python_tutorial/python_basic/advent_of_code/data/day2.1.txt",
 		"/Users/youngseok/Desktop/learning_resources/codes/python_tutorial/python_basic/advent_of_code/code/ex1_1.py",
-		"/Users/youngseok/Desktop/learning_resources/codes/python_tutorial/python_basic/advent_of_code/code/ex5_2.py",
-		"/Users/youngseok/Desktop/learning_resources/codes/python_tutorial/python_basic/advent_of_code/code/ex5_1.py",
 		"/Users/youngseok/Desktop/learning_resources/codes/python_tutorial/python_basic/advent_of_code/code/ex6_2.py",
 		"/Users/youngseok/Desktop/learning_resources/codes/python_tutorial/python_basic/advent_of_code/code/ex6_1.py",
 		"/Users/youngseok/Desktop/learning_resources/codes/python_tutorial/python_basic/advent_of_code/code/ex3_2.py",
@@ -360,43 +346,6 @@
 			"sheets":
 			[
 			]
-		},
-		{
-			"selected": 0,
-			"sheets":
-			[
-				{
-					"buffer": 0,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 31,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								31,
-								31
-							]
-						],
-						"settings":
-						{
-							"default_dir": "/Users/youngseok/Desktop/learning_resources/codes/python_tutorial/python_basic/advent_of_code/code",
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
-			]
 		}
 	],
 	"incremental_find":
@@ -416,18 +365,11 @@
 				0,
 				1,
 				1
-			],
-			[
-				1,
-				0,
-				2,
-				1
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.612557032155,
 			1.0
 		],
 		"rows":
@@ -450,7 +392,7 @@
 		"height": 133.0
 	},
 	"pinned_build_system": "Anaconda Python Builder",
-	"project": "virtualenv_python3.sublime-project",
+	"project": "rought_paper.sublime-project",
 	"replace":
 	{
 		"height": 56.0

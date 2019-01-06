@@ -97,6 +97,10 @@ def pascal(n):
         return [1] + pattern(pascal(n - 1)) + [1]
 
 
+def get_pascal_val(n, idx):
+    list_n = pascal(n)
+    return list_n[idx + 1]
+
 
 from random import random
 
@@ -118,13 +122,15 @@ def quick_sort(input):
         quick_sort(large)
 
 
-print(mul(100, 3))
-print(fibo(10, memo))
-print(iterative_add(4))
-print("factoral answer: " + str(factorial(10)))
-print(count(10))
-print(is_palindrome("ABCCBA"))
-towers(2, "Source", "Target", "AUX")
-print(pascal(6))
-print(quick_sort([7, 100, 14, 1, 2, 3]))
-print(fibo_pascal(7))
+# print(mul(100, 3))
+# print(fibo(10, memo))
+# print(iterative_add(4))
+# print("factoral answer: " + str(factorial(10)))
+# print(count(10))
+# print(is_palindrome("ABCCBA"))
+# towers(2, "Source", "Target", "AUX")
+# print(pascal(6))
+# print(quick_sort([7, 100, 14, 1, 2, 3]))
+# print(fibo_pascal(7))
+
+print(get_pascal_val(3, 1))
