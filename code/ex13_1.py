@@ -11,35 +11,28 @@ def parse(data_path):
 
     rs = [[val if val not in c_class else cr_dict.get(val) for val in vals] for vals in raw]
 
-    cs = [(y, x, cycle(iter(["l", "s", "r"])), val) for y, vals in enumerate(raw) for x, val in enumerate(vals) if val in c_class]
+    cs = [[[y, x], val, cycle(iter(["l", "s", "r"]))]
+          for y, vals in enumerate(raw)
+          for x, val in enumerate(vals) if val in c_class]
 
     return rs, cs
 
 
-def move(rs, cs):
-    cs = sorted(cs, key=lambda x: (x[0], x[1]))
-    new_cs = []
-    for c in cs:
-        new_c = []
-        if c[3] == ">":
-            new_c.append(c[0])
-            new_c.append(c[1] + 1)
-        elif c[3] == "<":
-            new_c.append(c[0])
-            new_c.append(c[1] - 1)
-        elif c[3] == "^":
-            new_c.append(c[0] - 1)
-            new_c.append(c[1])
-        elif c[3] == "v":
-            new_c.append(c[0] + 1)
-            new_c.append(c[1])
-        new_c = update_mmt(new_c, c[2], c[3], rs[new_c[0]][new_c[1]])
-        new_cs.append(new_c)
+def move(rs, c):
+    if c[1] == ">":
+        c[0] = [c[0][0], c[0][1] + 1]
+    elif c[1] == "<":
+        c[0] = [c[0][0], c[0][1] - 1]
+    elif c[1] == "^":
+        c[0] = [c[0][0] - 1, c[0][1]]
+    elif c[1] == "v":
+        c[0] = [c[0][0] + 1, c[0][1]]
 
-    return rs, new_cs
+    c = update_mmt(c, c[1], c[2], rs[c[0][0]][c[0][1]])
+    return c
 
 
-def update_mmt(new_c, a_iter, mmt, r):
+def update_mmt(c, mmt, a_iter, r):
 
     act_m_dict_1 = {"l,v": ">", "l,>": "^", "l,^": "<", "l,<": "v",
                     "s,v": "v", "s,>": ">", "s,^": "^", "s,<": "<",
@@ -49,28 +42,31 @@ def update_mmt(new_c, a_iter, mmt, r):
                     "\\,>": "v", "\\,^": "<", "\\,v": ">", "\\,<": "^"}
 
     if r not in ["/", "\\", "+"]:
-        new_c.append(a_iter)
-        new_c.append(mmt)
-        return new_c
+        return c
+
     elif r == "+":
         act_m = ",".join([next(a_iter), mmt])
-        new_c.append(a_iter)
-        new_c.append(act_m_dict_1[act_m])
-        return new_c
+        c[2] = a_iter
+        c[1] = act_m_dict_1[act_m]
+        return c
+
     elif r in ["/", "\\"]:
         act_m = ",".join([r, mmt])
-        new_c.append(a_iter)
-        new_c.append(act_m_dict_2[act_m])
-        return new_c
+        c[1] = act_m_dict_2[act_m]
+        return c
 
 
 data_path = "../data/day13.txt"
 rs, cs = parse(data_path)
-while True:
-    rs, cs = move(rs, cs)
-    cs_xy = [(c[0], c[1]) for c in cs]
-    u_cs_xy = list(set(cs_xy))
-    [cs_xy.remove(u_c) for u_c in u_cs_xy]
-    if len(cs_xy) != 0:
-        print(cs_xy)
-        break
+
+initial_lenght = len(cs)
+while len(cs) > (initial_lenght - 2):
+    cs = sorted(cs, key=lambda x: (x[0][0], x[0][1]), reverse=True)
+    for _ in range(len(cs)):
+        c = cs.pop()
+        updated_c = move(rs, c)
+        if any([True if updated_c[0] == c[0] else False for c in cs]) == True:
+            cs = [c for c in cs if c[0] != updated_c[0]]
+            print(updated_c)
+        else:
+            cs = [updated_c] + cs

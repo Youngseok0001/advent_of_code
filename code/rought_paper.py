@@ -132,5 +132,15 @@ def quick_sort(input):
 # print(pascal(6))
 # print(quick_sort([7, 100, 14, 1, 2, 3]))
 # print(fibo_pascal(7))
+#print(get_pascal_val(3, 1))
 
-print(get_pascal_val(3, 1))
+score = '37'
+elf1 = 0
+elf2 = 1
+recipes = "330121"
+while recipes not in score[-7:]:
+    score += str(int(score[elf1]) + int(score[elf2]))
+    elf1 = (elf1 + int(score[elf1]) + 1) % len(score)
+    elf2 = (elf2 + int(score[elf2]) + 1) % len(score)
+
+print('Part 2:', score.index(recipes))

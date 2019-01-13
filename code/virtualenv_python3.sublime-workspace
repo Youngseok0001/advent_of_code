@@ -91,16 +91,6 @@
 	},
 	"buffers":
 	[
-		{
-			"contents": "5\n10\n11\n14\n0\n[Finished in 0.1s]",
-			"settings":
-			{
-				"buffer_size": 31,
-				"line_ending": "Unix",
-				"name": "Build output",
-				"scratch": true
-			}
-		}
 	],
 	"build_system": "Packages/Python/Python.sublime-build",
 	"build_system_choices":
@@ -234,7 +224,6 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/youngseok/Desktop/learning_resources/codes/python_tutorial/python_basic"
 	],
 	"file_history":
 	[
@@ -321,7 +310,7 @@
 	],
 	"find":
 	{
-		"height": 30.0
+		"height": 36.0
 	},
 	"find_in_files":
 	{
@@ -362,46 +351,14 @@
 			]
 		},
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 31,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								31,
-								31
-							]
-						],
-						"settings":
-						{
-							"default_dir": "/Users/youngseok/Desktop/learning_resources/codes/python_tutorial/python_basic/advent_of_code/code",
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 30.0
+		"height": 36.0
 	},
 	"input":
 	{
@@ -453,7 +410,7 @@
 	"project": "virtualenv_python3.sublime-project",
 	"replace":
 	{
-		"height": 56.0
+		"height": 68.0
 	},
 	"save_all_on_build": false,
 	"select_file":

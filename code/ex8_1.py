@@ -15,7 +15,6 @@ def parse_code(code, idx):
         shifted = parse_code(code, idx + 2)
         idx = idx + shifted
 
-
     idx += n_meta
     return idx - initial_idx + 2
 
