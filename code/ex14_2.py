@@ -3,12 +3,27 @@ recipes = "37"
 cook_1 = 0
 cook_2 = 1
 
-while recipes_n not in recipes[-7:]: 
-    new_recipes = str(int(recipes[cook_1]) + int(recipes[cook_2]))
-    recipes += new_recipes
-    cook_1 = (int(recipes[cook_1]) + cook_1 + 1) % len(recipes)
-    cook_2 = (int(recipes[cook_2]) + cook_2 + 1) % len(recipes)
-    if len(recipes) % 10000 == 0:
-        print(len(recipes))
-print(recipes.index(recipes_n))  
+
+class game:
+
+    def __init__(self, recipes, cook_1, cook_2):
+
+        self.recipes = recipes
+        self.cook_1 = cook_1
+        self.cook_2 = cook_2
+
+    @property
+    def change(self):
+        new_recipes = str(int(self.recipes[self.cook_1]) + int(self.recipes[self.cook_2]))
+        self.recipes = self.recipes + new_recipes
+        self.cook_1 = (int(self.recipes[self.cook_1]) + self.cook_1 + 1) % len(self.recipes)
+        self.cook_2 = (int(self.recipes[self.cook_2]) + self.cook_2 + 1) % len(self.recipes)
+        return self
+
+game_1 = game(recipes, cook_1, cook_2)
+while recipes_n not in game_1.recipes[-7:]: 
+    game_1.change
+    if len(game_1.recipes) % 10000 == 0:
+        print(len(game_1.recipes))
+print(game_1.recipes.index(recipes_n))  
     
