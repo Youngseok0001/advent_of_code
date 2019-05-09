@@ -1,0 +1,306 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"icus",
+				"icustay_id"
+			],
+			[
+				"icu",
+				"icustays"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove ",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Contro\tin",
+				"Package Control: Install Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: re",
+				"Package Control: Remove Package"
+			],
+			[
+				"package ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Ter",
+				"Terminal: Open"
+			],
+			[
+				"ter",
+				"Terminal View: Open Bash Terminal"
+			],
+			[
+				"pakc",
+				"Package Control: Install Package"
+			],
+			[
+				"terminal",
+				"Terminal View: Open Bash Terminal"
+			],
+			[
+				"isntall ",
+				"Package Control: Advanced Install Package"
+			],
+			[
+				"intall ",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"tervi",
+				"Terminal View: Open Bash Terminal"
+			],
+			[
+				"ter\t",
+				"Terminal View: Open Bash Terminal"
+			],
+			[
+				"scheme",
+				"Preferences: Terminal View: Color Scheme"
+			],
+			[
+				"termin",
+				"Preferences: Terminal View: Keybindings"
+			],
+			[
+				"TERMINAL",
+				"Terminal: Open"
+			],
+			[
+				"ISNTAL",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/youngseok/Desktop/learning_resources/codes/python_tutorial/python_basic/advent_of_code/Package Control Messages",
+		"/Users/youngseok/Library/Application Support/Sublime Text 3/Packages/User/Anaconda.sublime-settings",
+		"/Users/youngseok/Desktop/learning_resources/codes/python_tutorial/python_basic/advent_of_code/code/temp.py",
+		"/Users/youngseok/Library/Application Support/Sublime Text 3/Packages/Anaconda/Anaconda.sublime-settings",
+		"/Users/youngseok/docker/OMOP_demo/Dockerfile",
+		"/Users/youngseok/Downloads/synpuf5pct_20180710/README.md",
+		"/Users/youngseok/docker/OMOP_demo/Dockerfile.txt",
+		"/Users/youngseok/Desktop/learning_resources/Rough work/generator.py",
+		"/Users/youngseok/Desktop/Slack access",
+		"/Users/youngseok/Downloads/Core_MEDRT_DTS/Core_MEDRT_20181001_DTS.xml",
+		"/var/folders/f2/65xfz2ys3718z302_n3z1ql00000gn/T/sublime-sftp-browse-1538638808/titan_1.json/home/jacob/Learning_resources-/query/first_deririum.sql",
+		"/var/folders/f2/65xfz2ys3718z302_n3z1ql00000gn/T/sublime-sftp-browse-1538638659/titan_1.json/home/jacob/Learning_resources-/query/first_deritum",
+		"/Users/youngseok/Desktop/temp.py",
+		"/var/folders/f2/65xfz2ys3718z302_n3z1ql00000gn/T/sublime-sftp-browse-1537957769/titan_1.json/home/jacob/Projects/echo-mimiciii/sql/merge_data.sql",
+		"/var/folders/f2/65xfz2ys3718z302_n3z1ql00000gn/T/sublime-sftp-browse-1537787181/titan_1.json/home/jacob/Projects/echo-mimiciii/sql/merge_data_raw.sql",
+		"/var/folders/f2/65xfz2ys3718z302_n3z1ql00000gn/T/sublime-sftp-browse-1537787145/titan_1.json/home/jacob/Projects/echo-mimiciii/sql/vital_signs_unpivot.sql",
+		"/var/folders/f2/65xfz2ys3718z302_n3z1ql00000gn/T/sublime-sftp-browse-1537939663/titan_1.json/home/jacob/Projects/echo-mimiciii/sql/vital_signs.sql",
+		"/var/folders/f2/65xfz2ys3718z302_n3z1ql00000gn/T/sublime-sftp-browse-1537785769/titan_1.json/home/jacob/Projects/echo-mimiciii/sql/lab_unpivot.sql",
+		"/var/folders/f2/65xfz2ys3718z302_n3z1ql00000gn/T/sublime-sftp-browse-1537776624/titan_1.json/home/jacob/Projects/echo-mimiciii/sql/population.sql",
+		"/var/folders/f2/65xfz2ys3718z302_n3z1ql00000gn/T/sublime-sftp-browse-1537783402/titan_1.json/home/jacob/Projects/echo-mimiciii/sql/cohort.sql",
+		"/var/folders/f2/65xfz2ys3718z302_n3z1ql00000gn/T/sublime-sftp-browse-1537783413/titan_1.json/home/jacob/Projects/echo-mimiciii/sql/basics.sql",
+		"/var/folders/f2/65xfz2ys3718z302_n3z1ql00000gn/T/sublime-sftp-browse-1537783437/titan_1.json/home/jacob/Projects/echo-mimiciii/sql/icd9.sql",
+		"/var/folders/f2/65xfz2ys3718z302_n3z1ql00000gn/T/sublime-sftp-browse-1538185796/titan_1.json/home/jacob/Projects/echo-mimiciii/sql/drugs.sql",
+		"/var/folders/f2/65xfz2ys3718z302_n3z1ql00000gn/T/sublime-sftp-browse-1537783474/titan_1.json/home/jacob/Projects/echo-mimiciii/sql/lab_tests.sql",
+		"/var/folders/f2/65xfz2ys3718z302_n3z1ql00000gn/T/sublime-sftp-browse-1537783449/titan_1.json/home/jacob/Projects/echo-mimiciii/sql/lab_unpivot.sql",
+		"/Users/youngseok/Library/Application Support/Sublime Text 3/Packages/User/sftp_servers/titan_1.json",
+		"/Users/youngseok/Library/Application Support/Sublime Text 3/Packages/Terminal/Terminal.sublime-settings",
+		"/private/var/folders/f2/65xfz2ys3718z302_n3z1ql00000gn/T/download.png",
+		"/Users/youngseok/Projects/korean_datathon/MIMICiii/mimic-code/buildmimic/bigquery/schemas_v2/to_lower.sh",
+		"/Users/youngseok/Projects/korean_datathon/MIMICiii/mimic-code/buildmimic/bigquery/schemas/to_lower.sh",
+		"/Users/youngseok/Projects/korean_datathon/MIMICiii/mimic-code/buildmimic/bigquery/schemas/to_lower",
+		"/Users/youngseok/Projects/korean_datathon/MIMICiii/to_lower.sh",
+		"/Applications/Terminal (bash)",
+		"/Users/youngseok/Library/Application Support/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
+		"/Users/youngseok/Library/Application Support/Sublime Text 3/Packages/TerminalView/README.md",
+		"/Users/youngseok/Library/Application Support/Sublime Text 3/Packages/User/Default.sublime-keymap",
+		"/Users/youngseok/Library/Application Support/Sublime Text 3/Packages/TerminalView/Default.sublime-keymap",
+		"/Users/youngseok/Library/Application Support/Sublime Text 3/Packages/Terminal/Default (OSX).sublime-keymap"
+	],
+	"find":
+	{
+		"height": 85.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 85.0
+	},
+	"input":
+	{
+		"height": 85.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Python/Python.sublime-build",
+	"project": "temp.sublime-project",
+	"replace":
+	{
+		"height": 166.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"T",
+				"Terminal (bash)"
+			],
+			[
+				"ter",
+				"Terminal (bash)"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 149.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
